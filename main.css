@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	text-align: center;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+#navigation {
+background: #000;
+float: left;
+width: 100%;
+margin: 0% 0px 7% 0px;
+}
+#navigation ul {
+margin: 0;
+padding: 0;
+}
+#navigation ul li {
+list-style-type: none;
+display: inline;
+}
+#content {
+padding: 10%;
+}
+img {
+display: block;
+margin: 0px auto;
+}
+
+a:hover {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    float: left;
+    color: rgb(112, 112, 112);
+    font-size: 15px;
+    margin: 5px 10px
+}
+input {
+display: block;
+margin: 0px auto;
+width: 50%;
+}
+
+#sign_in {
+border: 4px solid #dd4b39;
+background-color: #dd4b39;
+height: 25px;
+width: 70px;
+color: #fff;
+float: right;
+display: inline-block;
+margin-top: -6%;
+}
+#sign_in:hover{
+border: 4px solid darkred;
+background-color: darkred;
+color: #fff; 
+}
+.button {
+display: inline-block;
+border: 1px solid #e8e8e8;
+background-color: rgb(245, 245, 245);
+height: 25px;
+width: 115px;
+margin-top: 10px;
+}
+.button:hover{
+border: 2px solid gray;
+background-color: gray;
+}
+.button:hover{
+border: 2px solid gray;
+background-color: gray;
+}
+#footer {
+clear: all;
+position: absolute;
+bottom: 0px;
+right: 0px;
+text-align: right;
+border-top: 2px solid lightgray;
+width: 100%
+}
+#footer ul li {
+float: right;
+padding: 5px 10px;
+}
+#bottom_list:hover{
+color:#000;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.wrapper {
+}
